@@ -39,7 +39,7 @@ def open_settings():
     ttk.Label(settings_win, text="License: MIT", style='TLabel', font=('Segoe UI', 9)).pack(pady=(10, 0))
     ttk.Label(settings_win, text="GitHub:", style='TLabel', font=('Segoe UI', 9, 'bold')).pack(pady=(10, 0))
     def open_github():
-        webbrowser.open_new("https://github.com/gurraoptimus/BitCrafter")
+        webbrowser.open_new("https://gurraoptimus.github.io/BitCrafter")
 
     ttk.Button(settings_win, text="BitCrafter", command=open_github, style='TButton').pack(pady=(0, 0))
     ttk.Label(settings_win, text="Built by Gurraoptimus Development", style='TLabel', font=('Segoe UI', 9, 'italic')).pack(pady=(10, 0))
