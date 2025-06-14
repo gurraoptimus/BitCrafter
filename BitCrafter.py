@@ -1,6 +1,9 @@
 import tkinter as tk
 from tkinter import ttk
 import webbrowser
+import sys
+import os
+
 __version__ = "1.0.0"
 software = "BitCrafter"
 system = "Windows 10/11."
@@ -22,7 +25,7 @@ def convert():
 root = tk.Tk()
 root.title("BitCrafter - ASCII to Hex Converter")
 try:
-    root.iconbitmap("BitCrafter.ico")
+    root.iconbitmap("BitCrafter (2).ico")
 except Exception:
     pass
 root.geometry("600x200")
