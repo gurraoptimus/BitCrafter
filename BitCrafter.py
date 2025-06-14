@@ -22,10 +22,19 @@ def convert():
     hex_output = ascii_to_hex(ascii_input)
     output_var.set(hex_output)
 
+def resource_path(relative_path):
+    """ Get absolute path to resource, works for dev and for PyInstaller """
+    try:
+        # PyInstaller creates a temp folder and stores path in _MEIPASS
+        base_path = sys._MEIPASS
+    except Exception:
+        base_path = os.path.abspath(".")
+    return os.path.join(base_path, relative_path)
+
 root = tk.Tk()
 root.title("BitCrafter - ASCII to Hex Converter")
 try:
-    root.iconbitmap("BitCrafter (2).ico")
+    root.iconbitmap(resource_path("app\\assets\\BitCrafterlogo.ico"))
 except Exception:
     pass
 root.geometry("600x200")
@@ -39,7 +48,7 @@ def open_settings():
     settings_win.resizable(False, False)
     settings_win.configure(bg='#23272e')
     try:
-        settings_win.iconbitmap("BitCrafter (2).ico")
+        settings_win.iconbitmap(resource_path("app\\assets\\BitCrafterlogo.ico"))
     except Exception:
         pass
     settings_win.grab_set()
