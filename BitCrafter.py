@@ -12,7 +12,7 @@ def convert():
 
 root = tk.Tk()
 root.title("BitCrafter - ASCII to Hex Converter")
-root.iconbitmap("icon.ico")
+root.iconbitmap("BitCrafter.ico")
 root.geometry("600x200")
 root.resizable(False, False)
 
@@ -28,7 +28,7 @@ def open_settings():
     settings_win.resizable(False, False)
     settings_win.configure(bg='#23272e')
     try:
-        settings_win.iconbitmap("icon.ico")
+        settings_win.iconbitmap("BitCrafter.ico")
     except Exception:
         pass
 
