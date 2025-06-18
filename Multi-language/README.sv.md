@@ -3,25 +3,24 @@
 <img src="https://raw.githubusercontent.com/gurraoptimus/BitCrafter/gh-page/assets/BitCrafter%20(2).png" alt="BitCrafter Logo" width="120" />
 
 # <span style="color:#4F8A8B;">BitCrafter</span>
-### <span style="font-size:1.1em; color:#222;">ASCII to Hex Converter</span>
-
+### <span style="font-size:1.1em; color:#222;">ASCII till Hex-omvandlare</span>
 
 <details>
-<summary><b>🌐 Multi-language Support</b></summary>
+<summary><b>🌐 Flerspråkigt stöd</b></summary>
 
-BitCrafter README is available in multiple languages:
+BitCrafter README finns på flera språk:
 
-- [English](README.md) (current)
-- [Svenska](/Multi-language/README.sv.md)
+- [English](README.md)
+- [Svenska](/Multi-language/) (aktuell)
 - [한국어](/Multi-language/README.ko.md)
 - [Norsk](/Multi-language/README.no.md)
 
-To contribute a translation, create a new `README.[lang].md` file and submit a pull request.
+Vill du bidra med en översättning? Skapa en ny `README.[lang].md`-fil och skicka en pull request.
 </details>
 </details>
 ---
 
-BitCrafter is a modern desktop application built with Python and Tkinter for converting ASCII text to hexadecimal.
+BitCrafter är en modern skrivbordsapplikation byggd med Python och Tkinter för att konvertera ASCII-text till hexadecimal.
 
 </div>
 
@@ -49,58 +48,58 @@ BitCrafter is a modern desktop application built with Python and Tkinter for con
 
 ---
 
-## 🚀 Features:
+## 🚀 Funktioner:
 
-- **User-friendly interface:** Enter ASCII text and view the hex output instantly.
-- **About dialog:** Displays app details, author info, and license.
-- **Modern design:** Custom colors and fonts for a sleek look.
+- **Användarvänligt gränssnitt:** Skriv in ASCII-text och se hex-resultatet direkt.
+- **Om-dialog:** Visar appinformation, författare och licens.
+- **Modern design:** Anpassade färger och typsnitt för ett snyggt utseende.
 
 ---
 
-## 🛠️ Getting Started:
+## 🛠️ Kom igång:
 
 <ol>
     <li>
-        <b>Run the app:</b><br>
-        Ensure Python is installed, then execute:<br>
+        <b>Kör appen:</b><br>
+        Se till att Python är installerat och kör:<br>
         <pre><code>python BitCrafter.py</code></pre>
     </li>
     <li>
-        <b>Input text:</b><br>
-        Enter your ASCII text in the input field.
+        <b>Mata in text:</b><br>
+        Skriv in din ASCII-text i inmatningsfältet.
     </li>
     <li>
-        <b>Convert:</b><br>
-        Click <b>Convert</b> to see the hexadecimal result.
+        <b>Konvertera:</b><br>
+        Klicka på <b>Konvertera</b> för att se det hexadecimala resultatet.
     </li>
     <li>
-        <b>About:</b><br>
-        Click the <b>About</b> button (top right) for more info and a link to the GitHub repository.
+        <b>Om:</b><br>
+        Klicka på <b>Om</b>-knappen (uppe till höger) för mer information och en länk till GitHub-repot.
     </li>
 </ol>
 
 ---
 
-## 📦 Requirements:
+## 📦 Krav:
 
 - Python 3.x  
-- Tkinter (bundled with most Python installations)
+- Tkinter (medföljer de flesta Python-installationer)
 
 ---
 
-## 👤 Developed:
+## 👤 Utvecklare:
 
 - **Gurraoptimus**  
-- visit [Website](https://gurraoptimus.github.io/BitCrafter)
+- besök [Webbplats](https://gurraoptimus.github.io/BitCrafter)
 
 ---
 
-## 📄 License
+## 📄 Licens
 
-Licensed under the Apache License.
+Licensierad under Apache License.
 
 ---
 
 <div align="center" style="color:#888;">
-    <em>Copyright &copy; Gurraoptimus Development All rights reserved&mldr;</em>
+    <em>Copyright &copy; Gurraoptimus Development Alla rättigheter förbehållna&mldr;</em>
 </div>
