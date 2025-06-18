@@ -10,7 +10,7 @@
 
 BitCrafter README는 여러 언어로 제공됩니다:
 
-- [English](README.md)
+- [English](../README.md)
 - [Svenska](/Multi-language/README.sv.md)
 - [한국어](/Multi-language/) (현재)
 - [Norsk](/Multi-language/README.no.md)
